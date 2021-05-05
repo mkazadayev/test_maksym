@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OIBProbeResults version="1.2">
+  <OIBCore uri="http://10.194.12.44:1405/Asm.As.Oib.ServiceLocator/mex" host="10.194.12.44">
+    <ServiceLocator mex_uri="http://10.194.12.44:1405/Asm.As.Oib.ServiceLocator/mex">
+      <Endpoint uri="http://suzsiplacepro:1405/Asm.As.oib.servicelocator" contract="IServiceLocator" name="WSHttpBinding_IServiceLocator" />
+      <Endpoint uri="http://suzsiplacepro:1405/Asm.As.oib.servicelocatorSecure" contract="IServiceLocator" name="WSHttpBinding_IServiceLocator1" />
+      <Endpoint uri="net.tcp://suzsiplacepro:1406/Asm.As.oib.servicelocator" contract="IServiceLocator" name="NetTcpBinding_IServiceLocator" />
+      <Endpoint uri="net.tcp://suzsiplacepro:1406/Asm.As.oib.servicelocatorSecure" contract="IServiceLocator" name="NetTcpBinding_IServiceLocator1" />
+      <Endpoint uri="http://suzsiplacepro:1405/Asm.As.oib.servicelocator/Reliable" contract="IServiceLocator" name="WSHttpBinding_IServiceLocator2" />
+      <Endpoint uri="http://suzsiplacepro:1405/Asm.As.oib.servicelocator/ReliableSecure" contract="IServiceLocator" name="WSHttpBinding_IServiceLocator3" />
+      <Endpoint uri="net.tcp://suzsiplacepro:1406/Asm.As.oib.servicelocator/Reliable" contract="IServiceLocator" name="NetTcpBinding_IServiceLocator2" />
+      <Endpoint uri="net.tcp://suzsiplacepro:1406/Asm.As.oib.servicelocator/ReliableSecure" contract="IServiceLocator" name="NetTcpBinding_IServiceLocator3" />
+      <Endpoint uri="net.pipe://suzsiplacepro/Asm.As.Oib.Servicelocator" contract="IServiceLocator" name="namedPipe" />
+      <Endpoint uri="net.pipe://suzsiplacepro/Asm.As.Oib.ServicelocatorSecure" contract="IServiceLocator" name="namedPipeSecure" />
+    </ServiceLocator>
+    <MonitorServices>
+      <Monitor hostname="bu6line14pro" can_resolve="true" ip="172.30.56.69" can_ping="true">
+        <Endpoints>
+          <Endpoint uri="http://bu6line14pro:1405/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="net.tcp://bu6line14pro:1406/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="http://bu6line14pro:1405/Asm.As.Oib.Monitoring.Services/OperatorAssistService/mex" />
+          <Endpoint uri="http://bu6line14pro:1405/Asm.As.Oib.Monitoring.Services/MaintenanceDataService/mex" />
+        </Endpoints>
+        <MonitoringService hostname="bu6line14pro" can_connect="true">
+          <LineCollection adapter_version="6.0.0.100" ois_version="14.1.0.340" hostname="bu6line14pro">
+            <Line line_name="Line9" line_path="BU2\Line9\Line9">
+              <Station sw_version="707" type="0" machine_id="00004019" is_pnp="true" station_id="4019" name="X4-1" order="1" type_name="SIPLACE X4">
+                <FullPath>BU2\Line9\X4-1</FullPath>
+              </Station>
+              <Station sw_version="707" type="0" machine_id="00005632" is_pnp="true" station_id="5632" name="X4-2" order="2" type_name="SIPLACE X4">
+                <FullPath>BU2\Line9\X4-2</FullPath>
+              </Station>
+              <Station sw_version="708" type="0" machine_id="00002673" is_pnp="true" station_id="2673" name="X4-3" order="3" type_name="SIPLACE X4">
+                <FullPath>BU2\Line9\X4-3</FullPath>
+              </Station>
+            </Line>
+          </LineCollection>
+          <LastRecipe station_id="2673" recipe_path="BU2\Line9\LUC-GBS\FGEP_EBVW020A0B641Z_B_2" recipe_name="FGEP_EBVW020A0B641Z_B_2" cycle_time="76306" station_cycle_time="72950" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="5632" recipe_path="BU2\Line9\LUC-GBS\FGEP_EBVW020A0B641Z_B_2" recipe_name="FGEP_EBVW020A0B641Z_B_2" cycle_time="76306" station_cycle_time="67576" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="4019" recipe_path="BU2\Line9\LUC-GBS\FGEP_EBVW020A0B641Z_B_2" recipe_name="FGEP_EBVW020A0B641Z_B_2" cycle_time="76306" station_cycle_time="73597" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="2" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="3" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+          </LastRecipe>
+        </MonitoringService>
+      </Monitor>
+      <Monitor hostname="suzw014751" can_resolve="true" ip="172.30.56.68" can_ping="true">
+        <Endpoints>
+          <Endpoint uri="http://suzw014751:1405/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="net.tcp://suzw014751:1406/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="http://suzw014751:1405/Asm.As.Oib.Monitoring.Services/OperatorAssistService/mex" />
+          <Endpoint uri="http://suzw014751:1405/Asm.As.Oib.Monitoring.Services/MaintenanceDataService/mex" />
+        </Endpoints>
+        <MonitoringService hostname="suzw014751" can_connect="true">
+          <LineCollection adapter_version="6.0.0.100" ois_version="14.1.0.340" hostname="suzw014751">
+            <Line line_name="Line8" line_path="BU6\Line8\Line8">
+              <Station sw_version="710.1" type="0" machine_id="00015694" is_pnp="true" station_id="15694" name="X4S-1" order="1" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line8\X4S-1</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00015701" is_pnp="true" station_id="15701" name="X4S-2" order="2" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line8\X4S-2</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00016350" is_pnp="true" station_id="16350" name="X4S-3" order="3" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line8\X4S-3</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00015737" is_pnp="true" station_id="15737" name="X4S-4" order="4" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line8\X4S-4</FullPath>
+              </Station>
+            </Line>
+          </LineCollection>
+          <LastRecipe station_id="15737" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="75302" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head High Force 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="15737" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="75302" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head High Force 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="16350" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="84256" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="16350" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="84256" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15701" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="81770" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15701" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="81770" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15694" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="83974" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15694" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="83974" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+          </LastRecipe>
+        </MonitoringService>
+      </Monitor>
+      <Monitor hostname="suzw014754" can_resolve="true" ip="172.30.56.67" can_ping="true">
+        <Endpoints>
+          <Endpoint uri="http://suzw014754:1405/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="net.tcp://suzw014754:1406/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="http://suzw014754:1405/Asm.As.Oib.Monitoring.Services/OperatorAssistService/mex" />
+          <Endpoint uri="http://suzw014754:1405/Asm.As.Oib.Monitoring.Services/MaintenanceDataService/mex" />
+        </Endpoints>
+        <MonitoringService hostname="suzw014754" can_connect="true">
+          <LineCollection adapter_version="6.0.0.100" ois_version="14.1.0.340" hostname="suzw014754">
+            <Line line_name="Line7" line_path="BU6\Line7\Line7">
+              <Station sw_version="710.1" type="0" machine_id="00015700" is_pnp="true" station_id="15700" name="X4S-1" order="1" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line7\X4S-1</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00016322" is_pnp="true" station_id="16322" name="X4S-2" order="2" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line7\X4S-2</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00016325" is_pnp="true" station_id="16325" name="X4S-3" order="3" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line7\X4S-3</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00015712" is_pnp="true" station_id="15712" name="X4S-4" order="4" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line7\X4S-4</FullPath>
+              </Station>
+            </Line>
+          </LineCollection>
+          <LastRecipe station_id="15712" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="74189" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head High Force 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="15712" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="74189" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head High Force 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="16325" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="123444" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="16325" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="123444" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="16322" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="123911" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="16322" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="123911" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15700" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="123244" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15700" recipe_path="BU6\Line7\BB66\ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" recipe_name="ERBH-ROA1286230-3R1A_PNP_BOT&amp;TOP_05" cycle_time="125930" station_cycle_time="123244" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="C&amp;P 20 P 4xxx" />
+          </LastRecipe>
+        </MonitoringService>
+      </Monitor>
+      <Monitor hostname="gansipan" can_resolve="true" ip="172.30.56.36" can_ping="true">
+        <Endpoints>
+          <Endpoint uri="http://gansipan:1405/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="net.tcp://gansipan:1406/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="http://gansipan:1405/Asm.As.Oib.Monitoring.Services/MaintenanceDataService/mex" />
+          <Endpoint uri="http://gansipan:1405/Asm.As.Oib.Monitoring.Services/OperatorAssistService/mex" />
+        </Endpoints>
+        <MonitoringService hostname="gansipan" can_connect="true">
+          <LineCollection adapter_version="6.0.0.100" ois_version="14.1.0.340" hostname="gansipan">
+            <Line line_name="Line10" line_path="BU2\Line10\Line10">
+              <Station sw_version="707" type="0" machine_id="00002744" is_pnp="true" station_id="2744" name="X4-1" order="1" type_name="SIPLACE X4">
+                <FullPath>BU2\Line10\X4-1</FullPath>
+              </Station>
+              <Station sw_version="707" type="0" machine_id="00002771" is_pnp="true" station_id="2771" name="X4-2" order="2" type_name="SIPLACE X4">
+                <FullPath>BU2\Line10\X4-2</FullPath>
+              </Station>
+              <Station sw_version="708" type="0" machine_id="00009795" is_pnp="true" station_id="9795" name="X4-3" order="3" type_name="SIPLACE X4">
+                <FullPath>BU2\Line10\X4-3</FullPath>
+              </Station>
+            </Line>
+          </LineCollection>
+          <LastRecipe station_id="9795" recipe_path="BU2\Line10\LUC-GBS\FGEP_UJT035A0X3-SRZ_T_01" recipe_name="FGEP_UJT035A0X3-SRZ_T_01" cycle_time="134025" station_cycle_time="70076" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head High Force 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="2771" recipe_path="BU2\Line10\LUC-GBS\FGEP_UJT035A0X3-SRZ_T_01" recipe_name="FGEP_UJT035A0X3-SRZ_T_01" cycle_time="134025" station_cycle_time="131268" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="2744" recipe_path="BU2\Line10\LUC-GBS\FGEP_UJT035A0X3-SRZ_T_01" recipe_name="FGEP_UJT035A0X3-SRZ_T_01" cycle_time="134025" station_cycle_time="115825" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="2" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="3" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+          </LastRecipe>
+        </MonitoringService>
+      </Monitor>
+      <Monitor hostname="line5pro-1" can_resolve="true" ip="172.30.56.65" can_ping="true">
+        <Endpoints>
+          <Endpoint uri="http://line5pro-1:1405/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="net.tcp://line5pro-1:1406/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="http://line5pro-1:1405/Asm.As.Oib.Monitoring.Services/OperatorAssistService/mex" />
+          <Endpoint uri="http://line5pro-1:1405/Asm.As.Oib.Monitoring.Services/MaintenanceDataService/mex" />
+        </Endpoints>
+        <MonitoringService hostname="line5pro-1" can_connect="true">
+          <LineCollection adapter_version="6.0.0.100" ois_version="14.1.0.340" hostname="line5pro-1">
+            <Line line_name="Line5" line_path="BU6\Line5\Line5">
+              <Station sw_version="710.1" type="0" machine_id="00005452" is_pnp="true" station_id="5452" name="X4-1" order="1" type_name="SIPLACE X4">
+                <FullPath>BU6\Line5\X4-1</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00006116" is_pnp="true" station_id="6116" name="X4-2" order="2" type_name="SIPLACE X4">
+                <FullPath>BU6\Line5\X4-2</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00002944" is_pnp="true" station_id="2944" name="X4-3" order="3" type_name="SIPLACE X4">
+                <FullPath>BU6\Line5\X4-3</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00017715" is_pnp="true" station_id="17715" name="X4S-4" order="4" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line5\X4S-4</FullPath>
+              </Station>
+            </Line>
+          </LineCollection>
+          <LastRecipe station_id="2944" recipe_path="BU6\Line5\ESB\FE_5885_4BR1A_T_01" recipe_name="FE_5885_4BR1A_T_01" cycle_time="44237" station_cycle_time="34074" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="17715" recipe_path="BU6\Line5\ESB\FE_5885_4BR1A_T_01" recipe_name="FE_5885_4BR1A_T_01" cycle_time="44237" station_cycle_time="39088" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head High Force 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="6116" recipe_path="BU6\Line5\ESB\FE_5885_4BR1A_T_01" recipe_name="FE_5885_4BR1A_T_01" cycle_time="44237" station_cycle_time="41635" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="5452" recipe_path="BU6\Line5\ESB\FE_5885_4BR1A_T_01" recipe_name="FE_5885_4BR1A_T_01" cycle_time="44237" station_cycle_time="22608" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="4" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="2" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+            <Head gantry="3" id="1" bypassed="false" type="C&amp;P 20 10xx" />
+          </LastRecipe>
+        </MonitoringService>
+      </Monitor>
+      <Monitor hostname="liugaogong-1" can_resolve="true" ip="172.30.56.66" can_ping="true">
+        <Endpoints>
+          <Endpoint uri="http://liugaogong-1:1405/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="net.tcp://liugaogong-1:1406/Asm.As.Oib.Monitoring.Services.Architecture.Services/SiplaceMonitoringService/mex" />
+          <Endpoint uri="http://liugaogong-1:1405/Asm.As.Oib.Monitoring.Services/OperatorAssistService/mex" />
+          <Endpoint uri="http://liugaogong-1:1405/Asm.As.Oib.Monitoring.Services/MaintenanceDataService/mex" />
+        </Endpoints>
+        <MonitoringService hostname="liugaogong-1" can_connect="true">
+          <LineCollection adapter_version="6.0.0.100" ois_version="14.1.0.340" hostname="liugaogong-1">
+            <Line line_name="Line6" line_path="BU6\Line6\Line6">
+              <Station sw_version="710.0" type="0" machine_id="00015326" is_pnp="true" station_id="15326" name="X4S-1" order="1" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line6\X4S-1</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00017742" is_pnp="true" station_id="17742" name="X4S-2" order="2" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line6\X4S-2</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00017743" is_pnp="true" station_id="17743" name="X4S-3" order="3" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line6\X4S-3</FullPath>
+              </Station>
+              <Station sw_version="710.1" type="0" machine_id="00015561" is_pnp="true" station_id="15561" name="X4S-4" order="4" type_name="SIPLACE X4 S">
+                <FullPath>BU6\Line6\X4S-4</FullPath>
+              </Station>
+            </Line>
+          </LineCollection>
+          <LastRecipe station_id="17743" recipe_path="BU6\Line6\DU\ERBH-ROA1286546-1R1A_PNP_TOP_02" recipe_name="ERBH-ROA1286546-1R1A_PNP_TOP_02" cycle_time="26950" station_cycle_time="5750" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="4" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="2" id="1" bypassed="false" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="false" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15561" recipe_path="BU6\Line6\DU\ERBH-ROA1286546-1R1A_PNP_TOP_02" recipe_name="ERBH-ROA1286546-1R1A_PNP_TOP_02" cycle_time="26950" station_cycle_time="24636" station_cycle_valid="true">
+            <Head gantry="1" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="4" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="2" id="1" bypassed="false" type="Twin Head 5xx" />
+            <Head gantry="3" id="1" bypassed="false" type="Twin Head 5xx" />
+          </LastRecipe>
+          <LastRecipe station_id="17742" recipe_path="BU6\Line6\DU\ERBH-ROA1286546-1R1A_PNP_TOP_02" recipe_name="ERBH-ROA1286546-1R1A_PNP_TOP_02" cycle_time="26950" station_cycle_time="0" station_cycle_valid="false">
+            <Head gantry="1" id="1" bypassed="true" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="true" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="true" type="CPP 12 2xxx" />
+            <Head gantry="3" id="1" bypassed="true" type="CPP 12 2xxx" />
+          </LastRecipe>
+          <LastRecipe station_id="15326" recipe_path="BU6\Line6\DU\ERBH-ROA1286546-1R1A_PNP_TOP_02" recipe_name="ERBH-ROA1286546-1R1A_PNP_TOP_02" cycle_time="26950" station_cycle_time="0" station_cycle_valid="false">
+            <Head gantry="1" id="1" bypassed="true" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="4" id="1" bypassed="true" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="2" id="1" bypassed="true" type="C&amp;P 20 P 4xxx" />
+            <Head gantry="3" id="1" bypassed="true" type="C&amp;P 20 P 4xxx" />
+          </LastRecipe>
+        </MonitoringService>
+      </Monitor>
+    </MonitorServices>
+  </OIBCore>
+  <Messages start_time="2021-04-27T12:37:58.7498808Z" end_time="2021-04-27T12:57:59.4086253Z" duration_seconds="1200.6587445">
+    <Core hostname="10.194.12.44">
+      <MonitorAdapterHeartbeat hostname="gansipan">
+        <Station address="172.22.100.56" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002744" station_full_path="BU2\Line10\X4-1" station_id="2744" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-1[327974973]" />
+        <Station address="172.22.100.57" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002771" station_full_path="BU2\Line10\X4-2" station_id="2771" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-2[327974974]" />
+        <Station address="172.22.9.55" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00009795" station_full_path="BU2\Line10\X4-3" station_id="9795" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-3[327974975]" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="2673" recipe_path="BU2\Line9\LUC-GBS\FGEP_EBVW020A0B641Z_B_2" recipe_name="FGEP_EBVW020A0B641Z_B_2" cycle_time="76306" station_cycle_time="72950" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="4" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="2" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="3" id="1" bypassed="False" type="Twin Head 5xx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="suzw014754">
+        <Station address="172.22.37.243" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015700" station_full_path="BU6\Line7\X4S-1" station_id="15700" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-1[327974964]" />
+        <Station address="172.22.37.241" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016322" station_full_path="BU6\Line7\X4S-2" station_id="16322" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-2[327974965]" />
+        <Station address="172.22.37.239" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016325" station_full_path="BU6\Line7\X4S-3" station_id="16325" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-3[327974966]" />
+        <Station address="172.22.38.22" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015712" station_full_path="BU6\Line7\X4S-4" station_id="15712" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-4[327974967]" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="2673" recipe_path="BU2\Line9\LUC-GBS\FGEP_EBVW020A0B641Z_B_2" recipe_name="FGEP_EBVW020A0B641Z_B_2" cycle_time="76306" station_cycle_time="72950" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="4" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="2" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="3" id="1" bypassed="False" type="Twin Head 5xx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="bu6line14pro">
+        <Station address="172.22.165.124" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00004019" station_full_path="BU2\Line9\X4-1" station_id="4019" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.160.70" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00005632" station_full_path="BU2\Line9\X4-2" station_id="5632" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.100.58" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00002673" station_full_path="BU2\Line9\X4-3" station_id="2673" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="line5pro-1">
+        <Station address="172.22.162.8" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00005452" station_full_path="BU6\Line5\X4-1" station_id="5452" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.2.254" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00006116" station_full_path="BU6\Line5\X4-2" station_id="6116" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.171.217" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00002944" station_full_path="BU6\Line5\X4-3" station_id="2944" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.71" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00017715" station_full_path="BU6\Line5\X4S-4" station_id="17715" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="liugaogong-1">
+        <Station address="172.22.30.217" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015326" station_full_path="BU6\Line6\X4S-1" station_id="15326" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.0" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.76" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017742" station_full_path="BU6\Line6\X4S-2" station_id="17742" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.73" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017743" station_full_path="BU6\Line6\X4S-3" station_id="17743" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.36.130" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015561" station_full_path="BU6\Line6\X4S-4" station_id="15561" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="suzw014751">
+        <Station address="172.22.37.250" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015694" station_full_path="BU6\Line8\X4S-1" station_id="15694" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-1[327974977]" />
+        <Station address="172.22.37.248" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015701" station_full_path="BU6\Line8\X4S-2" station_id="15701" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-2[327974978]" />
+        <Station address="172.22.37.246" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00016350" station_full_path="BU6\Line8\X4S-3" station_id="16350" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-3[327974979]" />
+        <Station address="172.22.38.8" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015737" station_full_path="BU6\Line8\X4S-4" station_id="15737" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-4[327974980]" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="gansipan">
+        <Station address="172.22.100.56" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002744" station_full_path="BU2\Line10\X4-1" station_id="2744" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-1[327974973]" />
+        <Station address="172.22.100.57" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002771" station_full_path="BU2\Line10\X4-2" station_id="2771" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-2[327974974]" />
+        <Station address="172.22.9.55" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00009795" station_full_path="BU2\Line10\X4-3" station_id="9795" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-3[327974975]" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="suzw014754">
+        <Station address="172.22.37.243" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015700" station_full_path="BU6\Line7\X4S-1" station_id="15700" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-1[327974964]" />
+        <Station address="172.22.37.241" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016322" station_full_path="BU6\Line7\X4S-2" station_id="16322" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-2[327974965]" />
+        <Station address="172.22.37.239" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016325" station_full_path="BU6\Line7\X4S-3" station_id="16325" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-3[327974966]" />
+        <Station address="172.22.38.22" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015712" station_full_path="BU6\Line7\X4S-4" station_id="15712" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-4[327974967]" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="15694" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="83974" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+      </RecipeChange>
+      <RecipeChange station_id="15701" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="81770" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="CPP 12 2xxx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="bu6line14pro">
+        <Station address="172.22.165.124" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00004019" station_full_path="BU2\Line9\X4-1" station_id="4019" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.160.70" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00005632" station_full_path="BU2\Line9\X4-2" station_id="5632" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.100.58" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00002673" station_full_path="BU2\Line9\X4-3" station_id="2673" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="15701" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="81770" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="CPP 12 2xxx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="line5pro-1">
+        <Station address="172.22.162.8" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00005452" station_full_path="BU6\Line5\X4-1" station_id="5452" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.2.254" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00006116" station_full_path="BU6\Line5\X4-2" station_id="6116" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.171.217" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00002944" station_full_path="BU6\Line5\X4-3" station_id="2944" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.71" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00017715" station_full_path="BU6\Line5\X4S-4" station_id="17715" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="liugaogong-1">
+        <Station address="172.22.30.217" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015326" station_full_path="BU6\Line6\X4S-1" station_id="15326" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.0" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.76" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017742" station_full_path="BU6\Line6\X4S-2" station_id="17742" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.73" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017743" station_full_path="BU6\Line6\X4S-3" station_id="17743" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.36.130" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015561" station_full_path="BU6\Line6\X4S-4" station_id="15561" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="suzw014751">
+        <Station address="172.22.37.250" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015694" station_full_path="BU6\Line8\X4S-1" station_id="15694" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-1[327974977]" />
+        <Station address="172.22.37.248" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015701" station_full_path="BU6\Line8\X4S-2" station_id="15701" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-2[327974978]" />
+        <Station address="172.22.37.246" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00016350" station_full_path="BU6\Line8\X4S-3" station_id="16350" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-3[327974979]" />
+        <Station address="172.22.38.8" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015737" station_full_path="BU6\Line8\X4S-4" station_id="15737" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-4[327974980]" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="gansipan">
+        <Station address="172.22.100.56" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002744" station_full_path="BU2\Line10\X4-1" station_id="2744" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-1[327974973]" />
+        <Station address="172.22.100.57" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002771" station_full_path="BU2\Line10\X4-2" station_id="2771" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-2[327974974]" />
+        <Station address="172.22.9.55" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00009795" station_full_path="BU2\Line10\X4-3" station_id="9795" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-3[327974975]" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="suzw014754">
+        <Station address="172.22.37.243" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015700" station_full_path="BU6\Line7\X4S-1" station_id="15700" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-1[327974964]" />
+        <Station address="172.22.37.241" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016322" station_full_path="BU6\Line7\X4S-2" station_id="16322" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-2[327974965]" />
+        <Station address="172.22.37.239" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016325" station_full_path="BU6\Line7\X4S-3" station_id="16325" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-3[327974966]" />
+        <Station address="172.22.38.22" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015712" station_full_path="BU6\Line7\X4S-4" station_id="15712" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-4[327974967]" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="15701" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="81770" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="CPP 12 2xxx" />
+      </RecipeChange>
+      <RecipeChange station_id="16350" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="84256" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="CPP 12 2xxx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="bu6line14pro">
+        <Station address="172.22.165.124" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00004019" station_full_path="BU2\Line9\X4-1" station_id="4019" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.160.70" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00005632" station_full_path="BU2\Line9\X4-2" station_id="5632" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.100.58" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00002673" station_full_path="BU2\Line9\X4-3" station_id="2673" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="line5pro-1">
+        <Station address="172.22.162.8" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00005452" station_full_path="BU6\Line5\X4-1" station_id="5452" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.2.254" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00006116" station_full_path="BU6\Line5\X4-2" station_id="6116" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.171.217" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00002944" station_full_path="BU6\Line5\X4-3" station_id="2944" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.71" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00017715" station_full_path="BU6\Line5\X4S-4" station_id="17715" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="liugaogong-1">
+        <Station address="172.22.30.217" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015326" station_full_path="BU6\Line6\X4S-1" station_id="15326" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.0" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.76" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017742" station_full_path="BU6\Line6\X4S-2" station_id="17742" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.73" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017743" station_full_path="BU6\Line6\X4S-3" station_id="17743" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.36.130" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015561" station_full_path="BU6\Line6\X4S-4" station_id="15561" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="suzw014751">
+        <Station address="172.22.37.250" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015694" station_full_path="BU6\Line8\X4S-1" station_id="15694" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-1[327974977]" />
+        <Station address="172.22.37.248" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015701" station_full_path="BU6\Line8\X4S-2" station_id="15701" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-2[327974978]" />
+        <Station address="172.22.37.246" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00016350" station_full_path="BU6\Line8\X4S-3" station_id="16350" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-3[327974979]" />
+        <Station address="172.22.38.8" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015737" station_full_path="BU6\Line8\X4S-4" station_id="15737" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-4[327974980]" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="gansipan">
+        <Station address="172.22.100.56" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002744" station_full_path="BU2\Line10\X4-1" station_id="2744" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-1[327974973]" />
+        <Station address="172.22.100.57" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00002771" station_full_path="BU2\Line10\X4-2" station_id="2771" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-2[327974974]" />
+        <Station address="172.22.9.55" line_full_path="BU2\Line10\Line10" line_name="Line10" machine_id="00009795" station_full_path="BU2\Line10\X4-3" station_id="9795" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708.1SP2" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line10[327974959]:Line10[327974972]:X4-3[327974975]" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="16350" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="84256" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="CPP 12 2xxx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="suzw014754">
+        <Station address="172.22.37.243" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015700" station_full_path="BU6\Line7\X4S-1" station_id="15700" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-1[327974964]" />
+        <Station address="172.22.37.241" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016322" station_full_path="BU6\Line7\X4S-2" station_id="16322" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-2[327974965]" />
+        <Station address="172.22.37.239" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00016325" station_full_path="BU6\Line7\X4S-3" station_id="16325" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-3[327974966]" />
+        <Station address="172.22.38.22" line_full_path="BU6\Line7\Line7" line_name="Line7" machine_id="00015712" station_full_path="BU6\Line7\X4S-4" station_id="15712" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line7[327974935]:Line7[327974963]:X4S-4[327974967]" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="15326" recipe_path="BU6\Line6\IRU\FE_6990_1R1B_B_01" recipe_name="FE_6990_1R1B_B_01" cycle_time="18170" station_cycle_time="13243" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+      </RecipeChange>
+      <RecipeChange station_id="15326" recipe_path="BU6\Line6\IRU\FE_6990_1R1B_B_01" recipe_name="FE_6990_1R1B_B_01" cycle_time="18170" station_cycle_time="13243" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="C&amp;P 20 P 4xxx" />
+      </RecipeChange>
+      <RecipeChange station_id="16350" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="84256" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="4" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="2" id="1" bypassed="False" type="CPP 12 2xxx" />
+        <Head gantry="3" id="1" bypassed="False" type="CPP 12 2xxx" />
+      </RecipeChange>
+      <RecipeChange station_id="15737" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="75302" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="4" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="2" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="3" id="1" bypassed="False" type="Twin Head High Force 5xx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="bu6line14pro">
+        <Station address="172.22.165.124" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00004019" station_full_path="BU2\Line9\X4-1" station_id="4019" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.160.70" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00005632" station_full_path="BU2\Line9\X4-2" station_id="5632" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="707" machine_type="0" isa95_path="" />
+        <Station address="172.22.100.58" line_full_path="BU2\Line9\Line9" line_name="Line9" machine_id="00002673" station_full_path="BU2\Line9\X4-3" station_id="2673" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="708" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <RecipeChange station_id="15737" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="75302" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="4" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="2" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="3" id="1" bypassed="False" type="Twin Head High Force 5xx" />
+      </RecipeChange>
+      <RecipeChange station_id="15737" recipe_path="BU6\Line8\DOT\FE_6967_1R1C_BT_01" recipe_name="FE_6967_1R1C_BT_01" cycle_time="86320" station_cycle_time="75302" station_cycle_valid="True">
+        <Head gantry="1" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="4" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="2" id="1" bypassed="False" type="Twin Head 5xx" />
+        <Head gantry="3" id="1" bypassed="False" type="Twin Head High Force 5xx" />
+      </RecipeChange>
+      <MonitorAdapterHeartbeat hostname="line5pro-1">
+        <Station address="172.22.162.8" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00005452" station_full_path="BU6\Line5\X4-1" station_id="5452" station_name="X4-1" station_order="1" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.2.254" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00006116" station_full_path="BU6\Line5\X4-2" station_id="6116" station_name="X4-2" station_order="2" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.171.217" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00002944" station_full_path="BU6\Line5\X4-3" station_id="2944" station_name="X4-3" station_order="3" type_name="SIPLACE X4" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.71" line_full_path="BU6\Line5\Line5" line_name="Line5" machine_id="00017715" station_full_path="BU6\Line5\X4S-4" station_id="17715" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="liugaogong-1">
+        <Station address="172.22.30.217" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015326" station_full_path="BU6\Line6\X4S-1" station_id="15326" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.0" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.76" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017742" station_full_path="BU6\Line6\X4S-2" station_id="17742" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.43.73" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00017743" station_full_path="BU6\Line6\X4S-3" station_id="17743" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+        <Station address="172.22.36.130" line_full_path="BU6\Line6\Line6" line_name="Line6" machine_id="00015561" station_full_path="BU6\Line6\X4S-4" station_id="15561" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="" />
+      </MonitorAdapterHeartbeat>
+      <MonitorAdapterHeartbeat hostname="suzw014751">
+        <Station address="172.22.37.250" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015694" station_full_path="BU6\Line8\X4S-1" station_id="15694" station_name="X4S-1" station_order="1" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-1[327974977]" />
+        <Station address="172.22.37.248" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015701" station_full_path="BU6\Line8\X4S-2" station_id="15701" station_name="X4S-2" station_order="2" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-2[327974978]" />
+        <Station address="172.22.37.246" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00016350" station_full_path="BU6\Line8\X4S-3" station_id="16350" station_name="X4S-3" station_order="3" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-3[327974979]" />
+        <Station address="172.22.38.8" line_full_path="BU6\Line8\Line8" line_name="Line8" machine_id="00015737" station_full_path="BU6\Line8\X4S-4" station_id="15737" station_name="X4S-4" station_order="4" type_name="SIPLACE X4 S" sw_version="710.1" machine_type="0" isa95_path="Enterprise:Site_SIPLACEProLines:Line8[327974945]:Line8[327974976]:X4S-4[327974980]" />
+      </MonitorAdapterHeartbeat>
+      <MessageCounts>
+        <Line line_computer="suzw014751">
+          <MessageType type="EventComposite" count="509" />
+          <MessageType type="HeartbeatEventData" count="4" />
+          <MessageType type="RecipeChangeComposite" count="10" />
+          <MessageType type="PassmodeCollection" count="10" />
+          <MessageType type="BoardStationComposite" count="15" />
+          <MessageType type="SetupCollection" count="4" />
+        </Line>
+        <Line line_computer="liugaogong-1">
+          <MessageType type="EventComposite" count="431" />
+          <MessageType type="BoardStationComposite" count="44" />
+          <MessageType type="HeartbeatEventData" count="4" />
+          <MessageType type="RecipeChangeComposite" count="2" />
+          <MessageType type="PassmodeCollection" count="2" />
+        </Line>
+        <Line line_computer="bu6line14pro">
+          <MessageType type="BoardStationComposite" count="29" />
+          <MessageType type="EventComposite" count="398" />
+          <MessageType type="RecipeChangeComposite" count="2" />
+          <MessageType type="PassmodeCollection" count="2" />
+          <MessageType type="HeartbeatEventData" count="4" />
+        </Line>
+        <Line line_computer="gansipan">
+          <MessageType type="HeartbeatEventData" count="4" />
+        </Line>
+        <Line line_computer="suzw014754">
+          <MessageType type="HeartbeatEventData" count="4" />
+        </Line>
+        <Line line_computer="line5pro-1">
+          <MessageType type="HeartbeatEventData" count="4" />
+        </Line>
+      </MessageCounts>
+    </Core>
+    <StationActivity>
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:38:18" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:39:07" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:39:42" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:40:49" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:43:30" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:45:38" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:49:00" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:52:15" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:52:58" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:53:49" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:54:56" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="0" recipe_id="1037043" board_count="12" timestamp="04/27/2021 12:57:55" core="10.194.12.44" station_id="17742" />
+      <PanelFinished placements="536" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:38:41" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="537" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:42:38" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="537" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:44:03" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="534" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:45:16" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="534" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:47:05" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="539" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:50:50" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="536" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:52:12" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="541" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:56:22" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="535" recipe_id="2169400" board_count="30" timestamp="04/27/2021 12:57:29" core="10.194.12.44" station_id="5632" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:39:00" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:39:35" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:40:18" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:41:03" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:41:47" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:42:30" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:43:40" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:44:37" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:45:16" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:45:54" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:49:04" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="0" recipe_id="1037038" board_count="12" timestamp="04/27/2021 12:52:20" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="151" recipe_id="1040537" board_count="1" timestamp="04/27/2021 12:55:15" core="10.194.12.44" station_id="15326" />
+      <PanelFinished placements="758" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:40:14" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="758" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:42:45" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="761" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:44:06" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="757" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:45:25" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="760" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:47:17" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="762" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:48:43" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="761" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:51:22" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="757" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:53:07" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="758" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:56:26" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="760" recipe_id="2169070" board_count="30" timestamp="04/27/2021 12:57:40" core="10.194.12.44" station_id="4019" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:40:25" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:41:28" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:43:30" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:46:15" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:47:25" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:48:54" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:50:15" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:51:49" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:55:07" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="120" recipe_id="2170042" board_count="30" timestamp="04/27/2021 12:56:05" core="10.194.12.44" station_id="2673" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:40:19" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:42:51" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:45:07" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:48:29" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:51:45" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:52:28" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:53:17" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:54:25" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:57:24" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="24" recipe_id="1037481" board_count="12" timestamp="04/27/2021 12:57:51" core="10.194.12.44" station_id="15561" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:40:42" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:43:23" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:45:31" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:48:53" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:52:09" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:52:51" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:53:42" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:54:49" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="36" recipe_id="1037260" board_count="12" timestamp="04/27/2021 12:57:48" core="10.194.12.44" station_id="17743" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:43:17" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:44:21" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:45:21" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:46:40" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:47:54" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:50:27" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:53:35" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:54:43" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="1306" recipe_id="82391032" board_count="2" timestamp="04/27/2021 12:55:49" core="10.194.12.44" station_id="15694" />
+      <PanelFinished placements="802" recipe_id="82391208" board_count="2" timestamp="04/27/2021 12:48:25" core="10.194.12.44" station_id="15701" />
+      <PanelFinished placements="802" recipe_id="82391208" board_count="2" timestamp="04/27/2021 12:49:50" core="10.194.12.44" station_id="15701" />
+      <PanelFinished placements="802" recipe_id="82391208" board_count="2" timestamp="04/27/2021 12:51:49" core="10.194.12.44" station_id="15701" />
+      <PanelFinished placements="802" recipe_id="82391208" board_count="2" timestamp="04/27/2021 12:54:52" core="10.194.12.44" station_id="15701" />
+      <PanelFinished placements="662" recipe_id="82391400" board_count="2" timestamp="04/27/2021 12:53:27" core="10.194.12.44" station_id="16350" />
+      <PanelFinished placements="38" recipe_id="82391518" board_count="2" timestamp="04/27/2021 12:55:38" core="10.194.12.44" station_id="15737" />
+    </StationActivity>
+  </Messages>
+  <Errors />
+</OIBProbeResults>
